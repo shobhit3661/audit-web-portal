@@ -7,7 +7,7 @@ phases:
   pre_build:
     commands:
       - echo build started on 'date'
-      - echo building JAR file
+      - echo building WAR file
       - mvn clean
       - mvn compile
       - mvn package
