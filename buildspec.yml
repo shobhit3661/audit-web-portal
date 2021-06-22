@@ -14,10 +14,10 @@ phases:
   post_build:
     commands:
       - echo Build completed
-      - mv target/*.war app.war
+      - mv target/*.war ROOT.war
       - dir
 
 artifacts:
   files:
-    - app.war
+    - ROOT.war
   discard-paths: yes
